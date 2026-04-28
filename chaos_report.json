@@ -1,0 +1,20 @@
+{
+  "experiment": {
+    "timestamp": "2026-04-28T13:51:41.235425",
+    "function": "ai-morning-bot",
+    "failure_type": "throttle",
+    "status": "success",
+    "action": "Set reserved concurrency to 0",
+    "recovered": true,
+    "recovery_time_seconds": 0.08,
+    "total_experiment_duration": 10.18
+  },
+  "target_function": {
+    "name": "ai-morning-bot",
+    "arn": "arn:aws:lambda:us-east-1:684103097402:function:ai-morning-bot",
+    "runtime": "nodejs18.x",
+    "memory": 256,
+    "timeout": 30
+  },
+  "timestamp": "2026-04-28T13:51:51.413130"
+}
